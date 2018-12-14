@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
-            case R.id.bottomnavigationHome:
+            case R.id.bottomNavigationHome:
                 addFragment();
         }
         return false;

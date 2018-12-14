@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.screen.MainActivity"
+    android:id="@+id/main_container"
     >
     <FrameLayout
         android:id="@+id/frameLayoutMain"
@@ -22,7 +23,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frame"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayoutMain"
         app:menu="@menu/bottom_navigation"
         />
 </android.support.constraint.ConstraintLayout>
